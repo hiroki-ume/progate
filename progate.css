@@ -1,0 +1,17 @@
+header {
+  height: 90px;
+  background-color: #26d0c9;
+  color: white;
+}
+
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  float: left;
+}
+
+.header-link li {
+  float: left;
+  list-style: none;
+  padding: 33px 20px;
+}
