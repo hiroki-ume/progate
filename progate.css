@@ -15,3 +15,20 @@ header {
   list-style: none;
   padding: 33px 20px;
 }
+
+.top-wrapper {
+  margin: 0 80px;
+}
+
+.top-wrapper h1 {
+  font-size: 140px;
+}
+
+.top-wrapper h2 {
+  font-size: 60px;
+}
+
+.top-wrapper span {
+  color: red;
+}
+/*# sourceMappingURL=progate.css.map */
