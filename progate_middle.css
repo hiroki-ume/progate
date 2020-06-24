@@ -1,0 +1,21 @@
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 180px 0 100px 0;
+}
+
+.btn {
+  padding: 8px 24px;
+  opacity: 0.8;
+  color: white;
+}
+
+.signup {
+  background-color: #239b76;
+}
+/*# sourceMappingURL=progate_middle.css.map */
