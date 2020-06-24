@@ -84,4 +84,28 @@ main {
   color: #889eab;
   font-size: 18px;
 }
+
+footer {
+  height: 200px;
+  background-color: #2f5167;
+  color: white;
+}
+
+.footer-wrapper {
+  padding: 40px 40px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-link {
+  float: right;
+}
+
+.footer-link li {
+  list-style: none;
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=progate.css.map */
