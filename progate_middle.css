@@ -1,16 +1,15 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-image: url(https://prog-8.com/images/html/advanced/top.png);
-  background-size: cover;
-}
-
 header {
   height: 65px;
+  width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0px;
+  z-index: 10;
 }
 
 .header-logo {
@@ -44,6 +43,8 @@ header {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
   color: white;
   text-align: center;
 }
@@ -90,5 +91,39 @@ header {
 
 .twitter {
   background-color: #55acee;
+}
+
+.lesson-wrapper {
+  text-align: center;
+}
+
+.lesson-wrapper h3 {
+  margin: 80px 0 50px 0;
+  font-weight: normal;
+  color: #5f5d60;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
 }
 /*# sourceMappingURL=progate_middle.css.map */
