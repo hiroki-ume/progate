@@ -1,6 +1,49 @@
-.top-wrapper {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.header-logo {
+  float: left;
+}
+
+.logo {
+  padding: 20px 0;
+  width: 124px;
+}
+
+.header-link {
+  float: right;
+}
+
+.login {
+  padding: 0 25px;
+  display: inline-block;
+  line-height: 65px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
   color: white;
   text-align: center;
 }
@@ -10,7 +53,8 @@
 }
 
 .container {
-  padding: 180px 0 100px 0;
+  margin: 0 auto;
+  width: 1170px;
 }
 
 .btn-wrapper {
