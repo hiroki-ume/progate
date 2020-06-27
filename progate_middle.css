@@ -164,4 +164,22 @@ header {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
+
+footer {
+  border-top: #eee 1px solid;
+}
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
+  margin: 0;
+}
+
+.footer-logo {
+  width: 124px;
+}
+
+.footer-left {
+  padding: 30px 0;
+}
 /*# sourceMappingURL=progate_middle.css.map */
